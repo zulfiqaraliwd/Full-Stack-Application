@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://backend-fullstackapplication-zulfiqarali.vercel.app';
+const API_URL = import.meta.env.VITE_API_URL || 'https://full-stack-application-rd4h.vercel.app';
 
 const api = axios.create({
   baseURL: `${API_URL}/api`,
