@@ -10,7 +10,7 @@ const Cart = () => {
   const { cart, removeFromCart, updateQuantity, getTotal } = useCart();
   const { user } = useAuth();
   const navigate = useNavigate();
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+  const API_URL = import.meta.env.VITE_API_URL || 'https://backend-fullstackapplication-zulfiqarali.vercel.app/';
 
   const handleCheckout = () => {
     if (!user) {

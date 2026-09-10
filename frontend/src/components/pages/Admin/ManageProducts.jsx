@@ -16,7 +16,7 @@ const ManageProducts = () => {
     price: '', 
     salePrice: '',
     image: '', 
-    category: 'perfume',  // ← String value
+    category: 'perfume', 
     productType: 'perfume', 
     gender: 'men',
     stock: '', 

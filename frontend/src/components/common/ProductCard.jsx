@@ -8,7 +8,7 @@ const isFullUrl = (url) => /^https?:\/\//i.test(url || '');
 const ProductCard = ({ product }) => {
   const { addToCart } = useCart();
   const [quantity, setQuantity] = useState(1);
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+  const API_URL = import.meta.env.VITE_API_URL || 'https://backend-fullstackapplication-zulfiqarali.vercel.app/';
   const imageSrc = isFullUrl(product.image) ? product.image : `${API_URL}${product.image}`;
 
   return (
